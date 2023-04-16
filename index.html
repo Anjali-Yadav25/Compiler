@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ToDoList</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <span id="h1">Type Your Code</span>
+        <span id="option">
+          <select name="languages" id="langselect">
+            <option value="CPP">CPP</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C">C</option>
+            <option value="JavaScript">JavaScript</option>
+          </select>
+        </span>
+      </div>
+      <div id="code">
+        <form>
+          <textarea name="msg" placeholder="write your code here....." id="inp"></textarea>
+        </form>
+      </div>
+      <div id="output">output :</div>
+      <div>
+        <button id="btn" onclick="fun()">Compile</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
